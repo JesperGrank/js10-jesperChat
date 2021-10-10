@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+        <label for="avaibleChatters">Click the dropdown list to select chat-room</label>
+        <select id="availableChatters">
+            <!-- <option>First</option>
+            <option >Second</option> -->
+        </select>
+        
+        <button onclick="handleOnSwitch()">Switch</button>
+        </div>
+
+        <ul id="messageList">
+        <!-- Messages will render into li tags -->
+        </ul>
+
+        <div>
+            <label for="author">Author </label>
+            <input id="author" />
+
+            <label for="message">Message </label>
+            <input id="message" />
+
+            <button onclick="handleOnClick()">Send</button>
+            <button onclick="getMessageList()">Refresh</button>
+        </div>
+        
+        <script src="mychat2.js"></script>
+    </body>
+</html>
